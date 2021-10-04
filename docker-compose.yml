@@ -1,0 +1,18 @@
+version: "3.6"
+
+networks:
+    microservices:
+        external: true
+        name: microservices
+
+services:
+    app: # service name
+        build: .
+        image: whatsapp-app
+        container_name: whatsapp-app
+        # ports:
+        #     - "3100:3100"
+        env_file:
+            - ./.env
+        networks:
+            - microservices
