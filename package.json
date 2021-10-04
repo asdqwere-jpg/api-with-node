@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Melvin-Jovano/api-with-node/issues"
   },
-  "homepage": "https://github.com/Melvin-Jovano/api-with-node#readme"
+  "homepage": "https://github.com/Melvin-Jovano/api-with-node#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "express": "^4.17.1"
+  }
 }
