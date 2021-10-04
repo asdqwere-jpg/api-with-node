@@ -1,0 +1,20 @@
+{
+  "name": "api-with-node",
+  "version": "1.0.0",
+  "description": "The Fetch API is a simple interface for fetching resources. Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest, which often requires additional logic (for example, for handling redirects). Note: Fetch supports the Cross Origin Resource Sharing (CORS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melvin-Jovano/api-with-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melvin-Jovano/api-with-node/issues"
+  },
+  "homepage": "https://github.com/Melvin-Jovano/api-with-node#readme"
+}
